@@ -22,21 +22,34 @@
 
 4. Creating empty fileB with ```touch /home/altschool/misc/fileB``` and using `echo` for dummy content
 
-![fileB dummycontent](images/dummyfileB.png)
+![fileB dummycontent](images/4.dummyfileB.png)
 
 5. Copying fileA contents to fileC contents with ```cp /home/altschool/misc/fileA /home/altschool/misc/filec```
 
-![copying files with cp](images/cpFileC.png)
+![copying files with cp](images/5.cpFileC.png)
 
 6. Moving fileB content with ```mv /home/altschool/misc/fileB /home/altschool/misc/fileD```
 
-![moving contents with mv](images/mvfileD.png)
+![moving contents with mv](images/6.mvfileD.png)
 
 7. Creating misc.tar archive with ```tar -cvf misc.tar misc```
 
-![misc.tar archive](images/tararchive.png)
+![misc.tar archive](images/7.tararchive.png)
 
 8. Compressing misc.tar archive created with ```gzip misc.tar```
 
-![Compressing tar archive](gziptar.png)
+![Compressing tar archive](8.images/gziptar.png)
+
+9. Creating a user and forcing the user to change his password upon login
+> We first have to make our altschool user a sudoer then proceed to create the user and the password expiry command.
+
+![making altschool a sudoer](images/9a.sudoaltschool)
+
+> Adding the user val using the `adduser`
+
+![Creating val user](imaages/9b.userval.png)
+
+> Passwd expiry upon login command for val user with ```sudo passwd --expire val```
+
+![Password expiry](images/9c.valpasswd.png)
 
