@@ -43,7 +43,7 @@
 9. Creating a user and forcing the user to change his password upon login
 > We first have to make our altschool user a sudoer then proceed to create the user and the password expiry command.
 
-![making altschool a sudoer](images/9a.sudoaltschool.png)
+![making altschool a sudoer](images/9a.sudooaltschool.png)
 
 > Adding the user val using the `adduser`
 
@@ -53,3 +53,19 @@
 
 ![Password expiry](images/9c.valpasswd.png)
 
+10. To lock a user password with ```sudo passwd -l val```
+
+![User lock](images/10.userlock.png)
+
+11. Creating a valerie user with no login shell with command ```sudo useradd -s /sbin/nologin valerie```
+
+![no login shell user(images/nologinshell.png)]
+
+12. Disabling password based authentication for ssh with ```sudo vi /etc/ssh/shd_config```
+> It's already disabled in the config file
+
+![vi ssh config file](images/12.passwordauth.png)
+
+13. Disabling root login for ssh using the same command by editing the ssh config file with ```sudo vi /etc/ssh/sshd_config```
+
+![root ssh config](images/13.root.png)
