@@ -1,5 +1,4 @@
-# Commands for Assignment
+# Commands and Screenshots for Assignment
 
-| Task description | Solution |
-| -----------------|----------|
-| Create a file    | `touch filename` |
+1. Created the altschool user with ```sudo adduser -m altschool```
+![useradd screenshot](../images/1.altschoooluser)
