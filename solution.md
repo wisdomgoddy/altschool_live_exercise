@@ -20,4 +20,23 @@
 
 ![echo Hello A](images/3.echoHelloA.png)
 
+4. Creating empty fileB with ```touch /home/altschool/misc/fileB``` and using `echo` for dummy content
+
+![fileB dummycontent](images/dummyfileB.png)
+
+5. Copying fileA contents to fileC contents with ```cp /home/altschool/misc/fileA /home/altschool/misc/filec```
+
+![copying files with cp](images/cpFileC.png)
+
+6. Moving fileB content with ```mv /home/altschool/misc/fileB /home/altschool/misc/fileD```
+
+![moving contents with mv](images/mvfileD.png)
+
+7. Creating misc.tar archive with ```tar -cvf misc.tar misc```
+
+![misc.tar archive](images/tararchive.png)
+
+8. Compressing misc.tar archive created with ```gzip misc.tar```
+
+![Compressing tar archive](gziptar.png)
 
