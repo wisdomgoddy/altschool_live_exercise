@@ -38,16 +38,16 @@
 
 8. Compressing misc.tar archive created with ```gzip misc.tar```
 
-![Compressing tar archive](8.images/gziptar.png)
+![Compressing tar archive](images/8.gziptar.png)
 
 9. Creating a user and forcing the user to change his password upon login
 > We first have to make our altschool user a sudoer then proceed to create the user and the password expiry command.
 
-![making altschool a sudoer](images/9a.sudoaltschool)
+![making altschool a sudoer](images/9a.sudoaltschool.png)
 
 > Adding the user val using the `adduser`
 
-![Creating val user](imaages/9b.userval.png)
+![Creating val user](images/9b.userval.png)
 
 > Passwd expiry upon login command for val user with ```sudo passwd --expire val```
 
