@@ -64,7 +64,7 @@
 12. Disabling password based authentication for ssh with ```sudo vi /etc/ssh/shd_config```
 > It's already disabled in the config file
 
-![vi ssh config file](images/12.passwordauth.png)
+![vi ssh config file](images/12.passwdauth.png)
 
 13. Disabling root login for ssh using the same command by editing the ssh config file with ```sudo vi /etc/ssh/sshd_config```
 
